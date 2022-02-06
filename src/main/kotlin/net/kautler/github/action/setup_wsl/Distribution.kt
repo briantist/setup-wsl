@@ -170,7 +170,7 @@ abstract class AptGetBasedDistribution : Distribution {
 }
 
 object Ubuntu2004 : AptGetBasedDistribution(
-        id = "Ubuntu",
+        id = "Ubuntu-20.04",
         distributionName = "Ubuntu",
         version = SemVer("20.4.0", jsObject<Options>()),
         downloadUrl = URL("https://aka.ms/wslubuntu2004"),
